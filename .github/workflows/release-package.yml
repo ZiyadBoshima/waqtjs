@@ -1,8 +1,9 @@
 name: "🚀🚀 publish"
 
 on:
-  release:
-    types: [published]
+  push:
+    branch:
+      - master
 
 jobs:
   build:
