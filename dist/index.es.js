@@ -1,0 +1,1 @@
+import{useState as e,useEffect as t}from"react";function n({timezone:e}){return Intl.DateTimeFormat("en-US",{timeZone:e,timeStyle:"medium",hour12:!1}).format(new Date)}const r=({timezone:r})=>{const[m,o]=e(n(r));return t((()=>{setInterval((()=>{o(n(r))}),1e3)}),[]),React.createElement(React.Fragment,null,m)};export{r as Clock};
