@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: process.env.NODE_AUTH_TOKEN
+      - run: cat process.env.NODE_AUTH_TOKEN
       - run: npm ci
       - run: npm publish
         env:
