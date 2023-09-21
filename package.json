@@ -1,13 +1,13 @@
 {
   "name": "waqtjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A react component that displays a clock, given the timezone.",
   "type": "module",
   "exports": {
     ".": {
-        "import": "./dst/index.esm.js",
-        "require": "./dst/index.cjs"
-      }
+      "import": "./dst/index.esm.js",
+      "require": "./dst/index.cjs"
+    }
   },
   "main": "dst/index.cjs",
   "scripts": {
