@@ -6,7 +6,7 @@
   "exports": {
     ".": {
       "import": "./dst/index.esm.js",
-      "require": "./dst/index.cjs"
+      "require": "./dst/index.cjs.js"
     }
   },
   "main": "dst/index.cjs",
