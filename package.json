@@ -1,6 +1,6 @@
 {
   "name": "waqtjs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A react component that displays a clock, given the timezone.",
   "type": "module",
   "exports": {
