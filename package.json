@@ -5,8 +5,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dst/index.esm.js",
-      "require": "./dst/index.cjs.js"
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
     }
   },
   "main": "dst/index.cjs",
