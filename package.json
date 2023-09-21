@@ -1,6 +1,6 @@
 {
   "name": "waqtjs",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A react component that displays a clock, given the timezone.",
   "type": "module",
   "exports": {
@@ -19,6 +19,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZiyadBoshima/waqtjs.git"
+  },
+  "publishConfig": {
+    "ziyadboshima:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "clock",
