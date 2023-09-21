@@ -18,12 +18,12 @@ export default [
             }
         ],
         plugins: [
+            resolve(),
             babel({
                 exclude: 'node_modules/**',
-                presets: [['@babel/preset-react', {"runtime": "automatic"}]]
+                presets: [['@babel/preset-react', {"runtime": "automatic"}]],
             }),
             external(),
-            resolve(),
             terser(),
         ]
     }
