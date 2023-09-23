@@ -5,4 +5,5 @@ A react component that tells the time, just in case you need to check the time o
 -----------------------------------
 
 Type the following command to get started
+
 ```npm i waqtjs```
