@@ -2,4 +2,5 @@
 
 .storybook/
 .github/
-src/stories
+src/
+rollup.config.js
