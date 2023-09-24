@@ -6,4 +6,12 @@ A react component that tells the time, just in case you need to check the time o
 
 Type the following command to get started
 
-```npm i waqtjs```
+```
+npm i waqtjs
+```
+
+Then in your react project, you can do this:
+
+```
+    <Clock timeZone={'Europe/Berlin'} timeStyle={'short'}/>
+```
