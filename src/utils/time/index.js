@@ -1,4 +1,11 @@
-export function getTime(timezone) {
+export function getTime(settings) {
+    const config = Object.entries(settings)
+    .filter(([key, value]) => value !== undefined)
+    .reduce((obj, [key, value]) => {
+        obj[key] = value;
+        return obj;
+    }, {});
+    
     return Intl.DateTimeFormat('en-US', 
-    {timeZone: timezone, timeStyle: 'medium', hour12: false,}).format(new Date())
+    config).format(new Date())
 }

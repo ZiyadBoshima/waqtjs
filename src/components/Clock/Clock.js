@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import { getTime } from '../../utils/time';
 
-export const Clock = ({timezone}) => {
-    const [time, setTime] = useState(getTime(timezone));
-
+export const Clock = (settings) => {
+    const [time, setTime] = useState(getTime(settings));
+    
     useEffect(() => {
         setInterval(() => {
-            setTime(getTime(timezone))
+            setTime(getTime(settings))
         }, 1000);
     }, []);
     

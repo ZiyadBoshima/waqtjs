@@ -6,5 +6,5 @@ export default {
     tags: ['autodocs'],
 };
 
-export const Default = () => {return(<Clock timezone={'Europe/Berlin'}/>)};
+export const Default = () => {return(<Clock timeZone={'Europe/Berlin'} timeStyle={'short'}/>)};
 
