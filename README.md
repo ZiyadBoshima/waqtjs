@@ -10,8 +10,14 @@ Type the following command to get started
 npm i waqtjs
 ```
 
-Then in your react project, you can do this:
+Import the clock componenent
 
 ```
- <Clock timeZone={'Europe/Berlin'} timeStyle={'short'}/>
+import { Clock } from 'waqtjs';
+```
+
+Then in your render function, you can do this:
+
+```
+<Clock timeZone={'Europe/Berlin'} timeStyle={'short'}/>
 ```
