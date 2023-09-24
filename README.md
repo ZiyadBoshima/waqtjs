@@ -13,5 +13,5 @@ npm i waqtjs
 Then in your react project, you can do this:
 
 ```
-    <Clock timeZone={'Europe/Berlin'} timeStyle={'short'}/>
+ <Clock timeZone={'Europe/Berlin'} timeStyle={'short'}/>
 ```

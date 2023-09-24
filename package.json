@@ -16,7 +16,8 @@
     "build-storybook": "storybook build",
     "build-lib": "rollup -c",
     "commit": "git-cz",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release --branches main",
+    "submit": "git add . && git-cz && git push"
   },
   "repository": {
     "type": "git",
